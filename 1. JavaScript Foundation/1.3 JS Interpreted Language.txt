@@ -2,3 +2,7 @@ JS is a interpreted language
 
 # Throws runtime error, as does compile ahead.
 # Reads line by line.
+
+
+
+Now a days its mixture of both also known JIT Compiler
