@@ -1,0 +1,3 @@
+As JS is single thread, things can be slow.
+
+So JS runtime comes in the picture.
