@@ -6,3 +6,7 @@ JS is a interpreted language
 
 
 Now a days its mixture of both also known JIT Compiler
+
+
+
+Also it depends on the implementation
