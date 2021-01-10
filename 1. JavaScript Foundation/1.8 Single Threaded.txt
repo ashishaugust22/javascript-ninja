@@ -1,0 +1,5 @@
+JS is a single thread language
+
+# means only one call stack.
+# One thing at a time.
+
