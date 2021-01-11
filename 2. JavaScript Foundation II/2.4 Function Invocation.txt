@@ -1,0 +1,18 @@
+When a function invoked/called/executed execution context is created
+
+With execution context, below comes into picture:
+1. this
+2. arguments (only available in local execution context)
+
+
+function marry (person1, person2) {
+    console.log(arguments);
+    return `&{person1} married to ${person2}`;
+}
+
+
+marry ('tim', 'tina');
+
+// output
+// {0: 'tim', 1; 'tina'}
+// tim married to tina
