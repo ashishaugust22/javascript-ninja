@@ -74,4 +74,24 @@ foodThoughts();
 
 
 // use const or let to avoid hoisting
-// JS will throw error instead of undefined with above tow
+// JS will throw error instead of undefined with above two
+
+
+
+// ===============================================
+
+
+
+function bigBrother() {
+    function littleBrother() {
+        return 'it is me!';
+    }
+    return littleBrother();
+    function littleBrother() {
+        return 'no me!';
+    }
+}
+
+// Before running this code, what do you think the output is?
+bigBrother();
+  // output => 'no me!'
