@@ -105,3 +105,65 @@ const obj = {
 obj.sing();
 
 // obj.sing(anotherFunc())
+
+
+// =====================================================
+
+
+var b = {
+    name: 'joy',
+    say() { console.log(this); }
+};
+
+
+var c = {
+    name: 'joy',
+    say() { return function () { console.log(this); }; }
+};
+
+
+var d = {
+    name: 'joy',
+    say() { return () => console.log(this); }
+};
+
+b.say();
+c.say()(); // I as wrong in this while testing
+d.say()();
+
+
+
+// =====================================================
+
+
+
+// Exercise: this Keyword 2
+// Run this code, and you will see there is an issue. How would you fix it?
+
+const character = {
+    name: 'Simon',
+    getCharacter() {
+        return this.name;
+    }
+};
+const giveMeTheCharacterNOW = character.getCharacter;
+
+//How Would you fix this?
+console.log('?', giveMeTheCharacterNOW()); //this should return 'Simon' bud doesn't
+
+
+// solution
+const character = {
+    name: 'Simon',
+    getCharacter() {
+        return this.name;
+    }
+};
+const giveMeTheCharacterNOW = character.getCharacter.bind(character);
+
+
+console.log('?', giveMeTheCharacterNOW());
+
+
+
+// =====================================================
