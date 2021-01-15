@@ -1,0 +1,8 @@
+Exercises on
+1. Pass by reference/pass by value
+2. Inheritanc ( Class/function )
+3. Prototypal Inheritance
+4. Function Currying
+5. Dispatch action pollyfill
+6. bind pollyfill
+7. what is the last prototype
