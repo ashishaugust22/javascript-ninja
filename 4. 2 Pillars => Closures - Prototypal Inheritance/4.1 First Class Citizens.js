@@ -1,0 +1,5 @@
+/*
+functions are first class citizens in JS
+which gave the birth of functional
+programming
+*/
