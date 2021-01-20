@@ -6,3 +6,5 @@ Exercises on
 5. Dispatch action pollyfill
 6. bind pollyfill
 7. what is the last prototype
+8. React lifecycle hooks
+
