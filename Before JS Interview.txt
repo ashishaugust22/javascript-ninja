@@ -9,3 +9,10 @@ Exercises on
 8. React lifecycle hooks
 
 
+
+
+
+
+Resources
+1. https://dmitripavlutin.com/simple-but-tricky-javascript-interview-questions/
+2. 
