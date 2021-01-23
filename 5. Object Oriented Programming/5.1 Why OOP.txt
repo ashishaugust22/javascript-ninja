@@ -1,0 +1,5 @@
+1. Clear + understandable
+2. Easy to extend
+3. Easy to maintain
+4. Memory Efficient
+5. DRY
