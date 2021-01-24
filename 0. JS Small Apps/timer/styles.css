@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+}
+
+body input{
+    width: 200px;
+    height: 30px;
+    border-radius: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+body .timerDiv{
+    padding: 1em;
+    font-size: 2rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}
+
+button {
+    padding: 0.75em 1em ;
+    margin-left: 1rem;
+    border-radius: 0.5rem;
+    background-color: #20a8d8;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
