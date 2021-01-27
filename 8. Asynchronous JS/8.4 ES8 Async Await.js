@@ -1,5 +1,3 @@
-const { promises } = require("fs");
-
 // cleaner way of writing promises.all with async await 
 
 const urls = [
