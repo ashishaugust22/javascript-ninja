@@ -1,3 +1,5 @@
+// Array reduce polyfill
+
 const arr = [2, 3];
 
 const sum = arr.reduce((acc, curr, i) => acc, 0);
