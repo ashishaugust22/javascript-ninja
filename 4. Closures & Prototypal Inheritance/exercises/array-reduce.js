@@ -2,10 +2,6 @@ const arr = [2, 3];
 
 const sum = arr.reduce((acc, curr, i) => acc, 0);
 
-
-// TODO: implement array.myReduce
-
-
 Array.prototype.myReduce = function (callback, initial) {
     let values = this;
     values.forEach((item, i) => {
