@@ -1,5 +1,9 @@
-const funcFunction = require('./add-even-subtract-odd');
+const funFunction = require('./add-even-subtract-odd');
 
 test('Testing fun function', () => {
-    expect(funcFunction(4)(2)()).toBe(6);
+    expect(funFunction(4)(2)(1)()).toBe(5);
+});
+
+test('Testing fun function', () => {
+    expect(funFunction(4)(2)()).toBe(6);
 });
