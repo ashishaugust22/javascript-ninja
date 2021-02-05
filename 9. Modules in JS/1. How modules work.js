@@ -1,4 +1,5 @@
 // IIFE 
+// module pattern
 
 const variable = (function () {
     const privateVariable = "Ashish";

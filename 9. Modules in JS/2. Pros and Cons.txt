@@ -1,0 +1,3 @@
+Cons
+1. Order of the script is correct.
+2. Still we are polluting global namespace.
