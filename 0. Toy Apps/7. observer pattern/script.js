@@ -10,19 +10,15 @@ document.addEventListener('mousemove', function (e) {
         clearTimeout(timerId);
     }
     timerId = setTimeout(() => {
-        let count = 0;
         function animate () {
             if (!replayValues.length) return;
-            x = replayValues[count].x;
-            y = replayValues[count].y;
+            x = replayValues[0].x;
+            y = replayValues[0].y;
             dog.style.left = x + 'px';
             dog.style.top = y + 'px';
             count++;
-            if (count < replayValues.length) {
+            if (replayValues.length) {
                 requestAnimationFrame(animate);
-            } else {
-                count = 0;
-                replayValues = [];
             }
         }
         animate();
