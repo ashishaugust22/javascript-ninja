@@ -5,6 +5,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: linear-gradient(45deg, #00c4cc, #003dcc);
+  background-size: 400% 400%;
+  animation-name: background;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
 }
 
 .clock {
@@ -12,6 +17,7 @@ body {
   height: 50vmin;
   border: 1px solid #00c4cc;
   background-color: #00c4cc3b;
+  background: radial-gradient(#fff, #00c4cc3b);
   border-radius: 50%;
   position: relative;
 }
@@ -36,30 +42,31 @@ body {
   transform-origin: left;
   border-top-right-radius: 100px;
   border-bottom-right-radius: 100px;
+  transition: transform ease-in-out 1s;
 }
 
 .hour {
   width: 12.5vmin;
   height: 3px;
   background-color: #7d2ae8;
-  animation-name: rotate;
-  animation-duration: 43200s;
+  /* animation-name: rotate;
+  animation-duration: 43200s; */
 }
 
 .minute {
   width: 15vmin;
   height: 3px;
   background-color: #30e82a;
-  animation-name: rotate;
-  animation-duration: 3600s;
+  /* animation-name: rotate;
+  animation-duration: 3600s; */
 }
 
 .second {
   width: 17.5vmin;
   height: 3px;
   background-color: #e82a79;
-  animation-name: rotate;
-  animation-duration: 60s;
+  /* animation-name: rotate;
+  animation-duration: 60s; */
 }
 
 @keyframes rotate {
@@ -68,5 +75,17 @@ body {
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes background {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }
