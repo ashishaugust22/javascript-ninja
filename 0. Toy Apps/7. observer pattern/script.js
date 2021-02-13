@@ -16,7 +16,7 @@ document.addEventListener('mousemove', function (e) {
             y = replayValues[0].y;
             dog.style.left = x + 'px';
             dog.style.top = y + 'px';
-            count++;
+            replayValues.shift();
             if (replayValues.length) {
                 requestAnimationFrame(animate);
             }
