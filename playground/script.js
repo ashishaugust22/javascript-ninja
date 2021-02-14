@@ -1,19 +1,29 @@
-function Employee (name) {
-    this.name = name;
-}
+// // rest is the opposite of spread
+// function test (...keys) {
+//     console.log(keys);
+// }
 
-function Developer () {
-    this.type = 'developer';
-}
+// test(1, 2, 4, 5);
 
-const ashish = new Employee('Ashish');
 
-ashish.__proto__ = new Developer();
+//////////////////////////////////////////////////////////////////////////////
 
-// const developer = new Developer();
+// function Employee (name) {
+//     this.name = name;
+// }
 
-console.log(ashish);
-console.log(ashish.type);
+// function Developer () {
+//     this.type = 'developer';
+// }
+
+// const ashish = new Employee('Ashish');
+
+// ashish.__proto__ = new Developer();
+
+// // const developer = new Developer();
+
+// console.log(ashish);
+// console.log(ashish.type);
 
 //////////////////////////////////////////////////////////////////////////////
 
