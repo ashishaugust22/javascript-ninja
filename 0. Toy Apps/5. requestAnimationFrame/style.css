@@ -1,0 +1,19 @@
+html {
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  background-color: cadetblue;
+}
+
+h1 {
+  display: inline-block;
+  background-color: brown;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  width: 150px;
+  text-align: center;
+  box-shadow: 0 5px 10px 5px #0000003b;
+}

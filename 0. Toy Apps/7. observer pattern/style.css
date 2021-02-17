@@ -1,0 +1,12 @@
+.dog {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ddd;
+  background-color: #00c4cc;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  /* transition: all ease-in-out 0.6s; */
+  transform: translate(-50%, -50%);
+}

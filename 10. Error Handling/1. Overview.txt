@@ -1,0 +1,2 @@
+Error handling is a feature.
+It gives the user indication of something went wrong.
