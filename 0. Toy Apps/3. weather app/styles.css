@@ -1,0 +1,17 @@
+.type-ahead-placeholder {
+  position: relative;
+}
+
+.suggestions {
+  position: absolute;
+  top: 100;
+  left: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+  box-shadow: 1px 1px 1px 1px #eee;
+}
+
+.weather-placeholder {
+  margin-top: 200px;
+  width: 500px;
+}

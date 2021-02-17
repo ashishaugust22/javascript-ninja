@@ -1,0 +1,22 @@
+{
+  "name": "javascript-ninja",
+  "version": "1.0.0",
+  "description": "You can run the JS files in terminal using node or nodemon",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashish-sharma91/javascript-ninja.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashish-sharma91/javascript-ninja/issues"
+  },
+  "homepage": "https://github.com/ashish-sharma91/javascript-ninja#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
