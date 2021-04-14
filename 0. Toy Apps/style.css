@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+}
+
+ol {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 2px;
+}
+
+ol li {
+  list-style: none;
+  height: 100px;
+  background-color: rgb(106, 5, 200);
+  cursor: pointer;
+  transition: transform ease-in-out 0.7s;
+}
+
+ol li:hover {
+  transform: scale(1.1);
+}
+
+ol li a {
+  text-decoration: none;
+  color: #fff;
+}

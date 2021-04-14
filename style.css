@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  background-color: #002b36;
+  color: #fff;
+}
+
+body h1 {
+  text-align: center;
+}
+
+body ol {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+  padding: 3rem;
+}
+
+body ol li {
+  padding: 1rem;
+  list-style: none;
+  background-color: #011c23;
+  height: 100px;
+  transition: transform ease-in 0.3s;
+  font-size: 1.5rem;
+}
+
+body ol li:hover {
+  transform: translateY(-5px);
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
