@@ -20,8 +20,8 @@ body .concepts-container a {
   padding: 1rem;
   list-style: none;
   background-color: #011c23;
-  min-height: 100px;
   transition: transform ease-in 0.3s;
+  min-height: 100px;
 }
 
 body .concepts-container a:hover {
