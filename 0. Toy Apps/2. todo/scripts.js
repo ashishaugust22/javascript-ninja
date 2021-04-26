@@ -30,7 +30,6 @@ function bindClearAll () {
 
 function onAddTodo () {
     const newTodo = todoInput.value;
-    console.log(newTodo);
     if (newTodo) {
         todos.push(newTodo);
         saveTodos();

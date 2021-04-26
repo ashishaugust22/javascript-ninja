@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  background-color: #002b36;
+  color: #fff;
+  font-family: Recursive, "Segoe UI", "Helvetica Neue", Helvetica, Roboto, "Open Sans", FreeSans, sans-serif;
+}
+
+body h1 {
+  text-align: center;
+}
+
+body .concepts-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+  padding: 3rem;
+}
+
+body .concepts-container a {
+  padding: 1rem;
+  list-style: none;
+  background-color: #011c23;
+  transition: transform ease-in 0.3s;
+  min-height: 100px;
+}
+
+body .concepts-container a:hover {
+  transform: translateY(-5px);
+}
+
+body .concepts-container h5 {
+  margin-top: 0;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.tag {
+  background-color: #676300;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  display: inline-block;
+  margin-bottom: 0.25rem;
+}
