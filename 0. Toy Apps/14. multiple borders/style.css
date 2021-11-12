@@ -1,0 +1,25 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #00c4cc, #003dcc);
+  background-size: 400% 400%;
+  animation-name: background;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.box-shadowed{
+  background-color: #41fdb8;
+  padding: 1rem;
+  box-shadow: 0 0 0 10px #e35656,
+              0 0 0 20px #7F95D1,
+              0 0 0 30px #ff82a9,
+              0 0 0 40px #ffc0be,
+              0 0 0 50px #ffebe7;
+}
