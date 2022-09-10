@@ -5,7 +5,7 @@
 // 3. Hoisting happens for every execution context
 
 
-conole.log(sing()); // works 
+console.log(sing()); // works 
 console.log(sing2()); // won't work => sing2 is not defined or undefined
 
 // function declaration
