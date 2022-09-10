@@ -14,7 +14,7 @@ function sing() {
 }
 
 // function expression
-function sing2() {
+const sing2 = function() {
     console.log('uuuh la la la');
 }
 
