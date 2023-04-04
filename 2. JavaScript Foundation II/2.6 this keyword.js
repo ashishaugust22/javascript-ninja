@@ -86,6 +86,7 @@ a();
 // ask yourself who called the function a.someFunction();
 // it matters how the function is called
 
+// failed to answer on 11/09/2022
 
 
 // =====================================================
@@ -103,8 +104,6 @@ const obj = {
 };
 
 obj.sing();
-
-// obj.sing(anotherFunc())
 
 
 // =====================================================
