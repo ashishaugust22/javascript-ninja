@@ -1,5 +1,5 @@
 function Header() {
-  return <>Age Calculator</>;
+  return <h1>Age Calculator</h1>;
 }
 
 export default Header;
